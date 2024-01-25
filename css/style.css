@@ -1,0 +1,83 @@
+/* start global  */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: o;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+    --font-size: 15px;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(min-width:767px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media(min-width:991px) {
+    .container {
+        width: 980px;
+    }
+}
+
+@media(min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+body {
+    font-family: outfit;
+    background-color: var(--Light-gray);
+}
+
+/* end global */
+/* start card  */
+.qr-code {
+    text-align: center;
+    position: relative;
+}
+
+.qr-code .card {
+    width: 300px;
+    padding: 15px;
+    height: 480px;
+    background-color: white;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+
+}
+
+.qr-code .card img {
+    width: 270px;
+    margin: 0 auto 10px;
+    border-radius: 15px;
+    
+}
+.qr-code .card h1 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.qr-code .card p {
+    font-size: var(--font-size);
+    color: var(--Grayish-blue);
+}
+/* end card  */
