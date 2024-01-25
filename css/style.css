@@ -52,7 +52,7 @@ main {
     position: relative;
 }
 
-.card {
+main .card {
     width: 300px;
     padding: 15px;
     height: 480px;
@@ -65,18 +65,18 @@ main {
 
 }
 
-.card img {
+main .card img {
     width: 270px;
     margin: 0 auto 10px;
     border-radius: 15px;
     
 }
-.card h1 {
+main .card h1 {
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
 }
-.card p {
+main .card p {
     font-size: var(--font-size);
     color: var(--Grayish-blue);
 }
