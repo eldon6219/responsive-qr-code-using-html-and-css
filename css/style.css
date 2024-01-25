@@ -47,12 +47,12 @@ body {
 
 /* end global */
 /* start card  */
-.qr-code {
+main {
     text-align: center;
     position: relative;
 }
 
-.qr-code .card {
+.card {
     width: 300px;
     padding: 15px;
     height: 480px;
@@ -65,18 +65,18 @@ body {
 
 }
 
-.qr-code .card img {
+.card img {
     width: 270px;
     margin: 0 auto 10px;
     border-radius: 15px;
     
 }
-.qr-code .card h1 {
+.card h1 {
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
 }
-.qr-code .card p {
+.card p {
     font-size: var(--font-size);
     color: var(--Grayish-blue);
 }
