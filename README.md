@@ -40,4 +40,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/eldon6219)
+- linked in - (https://www.linkedin.com/in/m-eldon-96b195229/)
 
